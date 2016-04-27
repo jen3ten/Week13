@@ -1,0 +1,71 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="page-header">
+    <h1 class="container"><img id="headerLogo" src="~/Images/logo.png" /></h1>
+</div>
+
+<!--NAV BAR-->
+<nav class="navbar navbar-default navbar-static-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About the Game</a></li>
+                <li><a href="#contact">Video Clips</a></li>
+                <li><a href="#contact">Game Cheats</a></li>
+                <li><a href="#contact">Talk About It</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+
+<!--TRAILER SECTION-->
+<div class="jumbotron mainSec">
+    <h1 class="container" id="trailer"><iframe width="560" height="315" src="https://www.youtube.com/embed/mpRhaXfvG_0" frameborder="0" allowfullscreen></iframe></h1>
+</div>
+
+<!--EPISODES PREVIEW-->
+<div class="row container preview">
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="~/Images/epi1.png" alt="episode one">
+            <div class="caption">
+                <h3>Episode One</h3>
+                <p>Episode one is really cool.  Why?  Because I said so.</p>
+                <p><a href="#" class="btn btn-primary" role="button">Play Now</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="~/Images/epi2.jpg" alt="episode two">
+            <div class="caption">
+                <h3>Episode Two</h3>
+                <p>You are hooked, so episode two is next.</p>
+                <p><a href="#" class="btn btn-primary" role="button">Play Now</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="~/Images/epi3.jpg" alt="episode three">
+            <div class="caption">
+                <h3>Episode Three</h3>
+                <p>Episode three....</p>
+                <p><a href="#" class="btn btn-primary" role="button">Play Now</a></p>
+            </div>
+        </div>
+    </div>
+</div>
